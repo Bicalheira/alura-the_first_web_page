@@ -1,9 +1,9 @@
 body {
-  background-color: #cccccc;
 }
 
 p,
-h1 {
+h1,
+h2 {
   text-align: center;
 }
 
@@ -11,10 +11,33 @@ em strong {
   color: #ff0000;
 }
 
-#missao{
+#mission {
   font-size: 20px;
 }
 
-#banner{
+#banner {
   width: 100%;
+}
+
+.principal {
+  background-color: #cccccc;
+  padding: 30px;
+}
+
+.benefits {
+  background-color: #fff;
+  padding: 20px;
+}
+.c-list{
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+.c-list .c-list__item {
+  font-style: italic;
+}
+
+.benefits__image {
+  width: 50%;
 }
