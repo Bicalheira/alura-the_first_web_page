@@ -1,9 +1,12 @@
-body {
+.header__title {
+  padding-left: 20px;
 }
 
-p,
-h1,
-h2 {
+.title--centralized {
+  text-align: center;
+}
+
+p {
   text-align: center;
 }
 
@@ -28,7 +31,7 @@ em strong {
   background-color: #fff;
   padding: 20px;
 }
-.c-list{
+.c-list {
   display: inline-block;
   vertical-align: top;
   width: 20%;
