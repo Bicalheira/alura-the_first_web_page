@@ -1,0 +1,16 @@
+.header {
+  background-color: #bbbbbb;
+}
+
+.navigation .navigation__list .list__item {
+  display: inline;
+  margin-left: 15px;
+}
+
+.navigation .navigation__list .list__item .item__link {
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 22px;
+}
