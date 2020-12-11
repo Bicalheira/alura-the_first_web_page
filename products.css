@@ -1,5 +1,18 @@
 .header {
   background-color: #bbbbbb;
+  padding: 20px 0;
+}
+
+.container {
+  position: relative;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.navigation {
+  position: absolute;
+  top: 100px;
+  right: 0;
 }
 
 .navigation .navigation__list .list__item {
