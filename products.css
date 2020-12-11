@@ -1,12 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 .header {
   background-color: #bbbbbb;
   padding: 20px 0;
 }
 
+.container,
+.product__list {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
 .container {
   position: relative;
-  max-width: 1140px;
-  margin: 0 auto;
 }
 
 .navigation {
@@ -15,15 +25,47 @@
   right: 0;
 }
 
-.navigation .navigation__list .list__item {
+.navigation__item {
   display: inline;
   margin-left: 15px;
 }
 
-.navigation .navigation__list .list__item .item__link {
+.item__link {
   color: #000000;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 22px;
+}
+
+.product__list {
+  padding: 50px 0;
+}
+
+.product__item {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+}
+
+.product__title,
+.product__price {
+  font-weight: bold;
+}
+
+.product__title {
+  font-size: 30px;
+}
+
+.product__description {
+  font-size: 18px;
+}
+
+.product__price {
+  font-size: 22px;
+  margin-top: 10px;
 }
