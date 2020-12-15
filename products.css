@@ -38,6 +38,11 @@ body {
   font-size: 22px;
 }
 
+.item__link:hover {
+  color: #c78c19;
+  text-decoration: none;
+}
+
 .product__list {
   padding: 50px 0;
 }
@@ -54,6 +59,17 @@ body {
   border-width: 2px;
   border-style: solid;
   border-radius: 10px;
+}
+
+.product__item:hover {
+  border-color: #c78c19;
+}
+.product__item:active {
+  border-color: #088c19;
+}
+
+.product__item:hover .product__title {
+  font-size: 34px;
 }
 
 .product__title,
