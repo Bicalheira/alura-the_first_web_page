@@ -89,3 +89,15 @@ body {
   font-size: 22px;
   margin-top: 10px;
 }
+
+.footer{
+  text-align: center;
+  background: url("/bg.jpg");
+  padding: 40px 20px;
+}
+
+.footer__text{
+  color: white;
+  font-size: 13px;
+  margin-top: 20px;
+}
