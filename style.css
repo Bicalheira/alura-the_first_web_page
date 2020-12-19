@@ -4,30 +4,98 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
 .header {
   background-color: #bbbbbb;
   padding: 20px 0;
 }
 
-.container,
+.u-container,
 .product__list {
   max-width: 940px;
   margin: 0 auto;
 }
 
-.container {
+.u-container {
   position: relative;
 }
 
-.navigation {
+.l-navigation {
   position: absolute;
   top: 100px;
   right: 0;
 }
 
-.navigation__item {
+.l-navigation__item {
   display: inline;
   margin-left: 15px;
+}
+
+.c-banner-principal {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.c-about-barbershop,
+.c-benefits {
+  padding: 50px 0;
+}
+
+.c-about-barbershop__title,
+.c-benefits__title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.c-about-barbershop {
+  background-color: #cccccc;
+  text-align: justify;
+}
+
+.c-about-barbershop__text--big {
+  text-align: center;
+  font-size: 30px;
+}
+
+.c-about-barbershop__text--red {
+  color: #ff0000;
+}
+
+.c-about-barbershop__text:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.c-benefits{
+  text-align: center;
+}
+
+.c-list {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+}
+
+.c-list__item:not(:last-child) {
+  margin-bottom: 80px;
+}
+
+.c-list__item {
+  font-style: italic;
+}
+
+.c-benefits__image {
+  width: 49%;
 }
 
 .item__link {
@@ -90,13 +158,13 @@ body {
   margin-top: 10px;
 }
 
-.footer{
+.l-footer {
   text-align: center;
   background: url("/bg.jpg");
   padding: 40px 20px;
 }
 
-.footer__text{
+.l-footer__text {
   color: white;
   font-size: 13px;
   margin-top: 20px;

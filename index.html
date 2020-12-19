@@ -4,49 +4,78 @@
   <head>
     <meta charset="UTF-8" />
     <title>Barbearia Alura</title>
-    <link rel="stylesheet" href="style-home.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="style-home.css" /> -->
   </head>
 
   <body>
-    <header>
-      <h1 class="header__title">Barbearia Alura</h1>
+    <header class="header">
+      <div class="u-container">
+        <h1><img src="logo.png" alt="Barbershop Alura's logo" /></h1>
+
+        <nav class="l-navigation">
+          <ul class="l-navigation__list">
+            <li class="l-navigation__item"><a class="item__link" href="index.html">Home</a></li>
+            <li class="l-navigation__item">
+              <a class="item__link" href="products.html">Products</a>
+            </li>
+            <li class="l-navigation__item">
+              <a class="item__link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <img id="banner" src="banner.jpg" alt="Imagem de uma barbearia" />
 
-    <div class="principal">
-      <h2 class="title--centralized">Sobre a Barbearia Alura</h2>
+    <main>
+      <img class="c-banner-principal" src="banner.jpg" alt="Imagem de uma barbearia" />
 
-      <p>
-        Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que
-        há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na
-        cidade e conquista novos clientes a cada dia.
-      </p>
+      <div class="c-about-barbershop">
+        <div class="u-container">
+          <h2 class="c-about-barbershop__title">Sobre a Barbearia Alura</h2>
 
-      <p id="mission">
-        <em>
-          Nossa missão é:
-          <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.
-        </em>
-      </p>
+          <p class="c-about-barbershop__text">
+            Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o
+            que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é
+            destaque na cidade e conquista novos clientes a cada dia.
+          </p>
 
-      <p>
-        Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento
-        possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos
-        clientes.
-      </p>
-    </div>
+          <p class="c-about-barbershop__text c-about-barbershop__text--big">
+            <em>
+              Nossa missão é:
+              <strong class="c-about-barbershop__text--red"
+                >"Proporcionar auto-estima e qualidade de vida aos clientes"</strong
+              >.
+            </em>
+          </p>
 
-    <div class="benefits">
-      <h3 class="title--centralized">Benefícios</h3>
+          <p class="c-about-barbershop__text">
+            Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O
+            atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação
+            dos nossos clientes.
+          </p>
+        </div>
+      </div>
 
-      <ul class="c-list">
-        <li class="c-list__item">Atendimento aos Clientes</li>
-        <li class="c-list__item">Espaço diferenciado</li>
-        <li class="c-list__item">Localização</li>
-        <li class="c-list__item">Profissionais qualificados</li>
-      </ul>
+      <div class="c-benefits">
+        <h3 class="c-benefits__title">Benefícios</h3>
+        <div class="u-container">
+          <ul class="c-list">
+            <li class="c-list__item">Atendimento aos Clientes</li>
+            <li class="c-list__item">Espaço diferenciado</li>
+            <li class="c-list__item">Localização</li>
+            <li class="c-list__item">Profissionais qualificados</li>
+          </ul>
 
-      <img class="benefits__image" src="beneficios.jpg" alt="Homem cortando a barba">
-    </div>
+          <img class="c-benefits__image" src="beneficios.jpg" alt="Homem cortando a barba" />
+        </div>
+      </div>
+    </main>
+
+    <footer class="l-footer">
+      <img class="l-footer__image" src="logo-branco.png" alt="Barbershop Alura's logo" />
+      <p class="l-footer__text">&copy; Copyright Alura Barbershop - 2020</p>
+    </footer>
   </body>
 </html>
