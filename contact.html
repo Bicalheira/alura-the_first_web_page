@@ -20,7 +20,9 @@
             <li class="l-navigation__item">
               <a class="item__link" href="products.html">Products</a>
             </li>
-            <li class="l-navigation__item"><a class="item__link" href="contact.html">Contact</a></li>
+            <li class="l-navigation__item">
+              <a class="item__link" href="contact.html">Contact</a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -37,6 +39,66 @@
 
           <label class="c-form__label" for="telefone">Telephone</label>
           <input class="c-form__input" type="email" id="telefone" />
+
+          <label class="c-form__label" for="mensagem">Message</label>
+          <textarea
+            class="c-form__text-area"
+            name="mensagem"
+            id="mensagem"
+            cols="30"
+            rows="10"
+          ></textarea>
+
+          <div>
+            <p class="c-form__text">How do you prefer our contact?</p>
+
+            <label class="c-form__label" for="radio-email">
+              <input
+                class="c-form__input-radio"
+                type="radio"
+                value="email"
+                name="contato"
+                id="radio-email"
+              />
+              E-mail
+            </label>
+
+            <label class="c-form__label" for="radio-telefone">
+              <input
+                class="c-form__input-radio"
+                type="radio"
+                value="telefone"
+                name="contato"
+                id="radio-telefone"
+              />
+              Telefone
+            </label>
+
+            <label class="c-form__label" for="radio-whatsapp">
+              <input
+                class="c-form__input-radio"
+                type="radio"
+                value="whatsapp"
+                name="contato"
+                id="radio-whatsapp"
+              />
+              WhatsApp
+            </label>
+          </div>
+
+          <label class="c-form__label">
+            <input class="c-form__input-checkbox" type="checkbox" />
+            Would you like to receive our news by email?
+          </label>
+
+          <div>
+            <p class="c-form__text">What time did you prefer been to attend?</p>
+            <select class="c-form__select" name="select" id="select">
+              <option value="">Morning</option>
+              <option value="">Afternoon</option>
+              <option value="">Night</option>
+            </select>
+          </div>
 
           <input type="submit" value="Send Form" />
         </form>
